@@ -8,9 +8,25 @@
 * [submission PR](https://github.com/alvian-401-advanced-javascript/simple-api)
 * [Front-end](https://codesandbox.io/s/w638oyk7o8)
 
+#### REST methods
+* `/categories GET, POST`  
+
+  GET Responds with all categories
+* `/products GET, POST`  
+
+  GET Responds with all products
+* `/categories/:id/ PUT, DELETE`  
+
+  Requires id in path, PUT updates a given category
+  Requires id in path, DELETE deltes a given category
+* `/products/:id/ PUT, DELETE`  
+
+  Requires id in path, PUT updates a given product
+  Requires id in path, DELETE deltes a given product
+
 
 ### Documentation
-* [swagger.json]()
+* [swagger.json](https://github.com/alvian-401-advanced-javascript/simple-api/blob/json-server/docs/swagger.json)
 * Generated using `swagger`.
 
 
