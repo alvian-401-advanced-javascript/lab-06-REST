@@ -20,20 +20,4 @@
 * Categories and their corresponding products should display when a category is clicked:
 
 #### Tests
-* How do you run tests?
-
 N/A
-* What assertions were made?
-
-N/A
-* What assertions need to be / should be made?
-
-N/A
-
-#### UML
-N/A
-
-  
-#### Tests
-* How do you run tests?
-  * N/A
