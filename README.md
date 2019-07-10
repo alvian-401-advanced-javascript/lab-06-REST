@@ -7,6 +7,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/alvian-401-advanced-javascript/simple-api)
 * [Front-end](https://codesandbox.io/s/w638oyk7o8)
+* [Swagger Hub] (https://app.swaggerhub.com/apis/AlvianJoseph/default-title/0.1)
 
 #### REST methods
 * `/categories GET, POST`  
