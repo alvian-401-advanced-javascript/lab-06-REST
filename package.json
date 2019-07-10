@@ -1,0 +1,28 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "--verbose --coverage",
+    "json-server": "--watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvian-401-advanced-javascript/lab-06-REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvian-401-advanced-javascript/lab-06-REST/issues"
+  },
+  "homepage": "https://github.com/alvian-401-advanced-javascript/lab-06-REST#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  }
+}

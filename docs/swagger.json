@@ -1,0 +1,255 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+     "title": "defaultTitle",
+     "description": "defaultDescription",
+     "version": "0.1"
+  },
+  "servers": [
+     {
+        "url": "http://localhost:3000"
+     }
+  ],
+  "paths": {
+     "/products/{id}": {
+        "put": {
+           "description": "updates product with given id",
+           "parameters": [
+              {
+                 "name": "id",
+                 "in": "path",
+                 "required": true,
+                 "schema": {
+                    "type": "integer"
+                 },
+                 "example": 1
+              }
+           ],
+           "responses": {
+              "404": {
+                 "description": "invalid id",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "delete": {
+           "description": "deletes a product",
+           "parameters": [
+              {
+                 "name": "id",
+                 "in": "path",
+                 "required": true,
+                 "schema": {
+                    "type": "integer"
+                 },
+                 "example": 1
+              }
+           ],
+           "responses": {
+              "404": {
+                 "description": "Invalid id. That product does not exist.",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "servers": [
+           {
+              "url": "http://localhost:3000"
+           }
+        ]
+     },
+     "/categories/{id}": {
+        "put": {
+           "description": "updates category with given id",
+           "parameters": [
+              {
+                 "name": "id",
+                 "in": "path",
+                 "required": true,
+                 "schema": {
+                    "type": "integer"
+                 },
+                 "example": 1
+              }
+           ],
+           "responses": {
+              "404": {
+                 "description": "invalid id",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "delete": {
+           "description": "deltes category with given id",
+           "parameters": [
+              {
+                 "name": "id",
+                 "in": "path",
+                 "required": true,
+                 "schema": {
+                    "type": "integer"
+                 },
+                 "example": 1
+              }
+           ],
+           "responses": {
+              "404": {
+                 "description": "invalid id",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "servers": [
+           {
+              "url": "http://localhost:3000"
+           }
+        ]
+     },
+     "/categories": {
+        "get": {
+           "description": "gets all categories",
+           "responses": {
+              "200": {
+                 "description": "Auto generated using Swagger Inspector",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "post": {
+           "description": "creates a new category",
+           "responses": {
+              "201": {
+                 "description": "created",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "servers": [
+           {
+              "url": "http://localhost:3000"
+           }
+        ]
+     },
+     "/products": {
+        "get": {
+           "description": "gets all products",
+           "responses": {
+              "200": {
+                 "description": "status 200",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "post": {
+           "description": "creates new products",
+           "responses": {
+              "201": {
+                 "description": "status 201",
+                 "content": {
+                    "application/json; charset=utf-8": {
+                       "schema": {
+                          "type": "string"
+                       },
+                       "examples": {}
+                    }
+                 }
+              }
+           },
+           "servers": [
+              {
+                 "url": "http://localhost:3000"
+              }
+           ]
+        },
+        "servers": [
+           {
+              "url": "http://localhost:3000"
+           }
+        ]
+     }
+  }
+}

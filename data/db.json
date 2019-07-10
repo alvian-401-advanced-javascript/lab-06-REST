@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "food",
+      "display_name": "food",
+      "description": "things to eat"
+    },
+    {
+      "id": 2,
+      "name": "clothes",
+      "display_name": "clothes",
+      "description": "things to wear"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "fish",
+      "category": "food",
+      "display_name": "fish",
+      "description": "tastes good"
+    },
+    {
+      "id": 2,
+      "name": "shoes",
+      "category": "clothes",
+      "display_name": "shoes",
+      "description": "go on your feet"
+    }
+  ]
+}
