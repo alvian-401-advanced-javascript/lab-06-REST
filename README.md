@@ -9,6 +9,10 @@
 * [Front-end](https://codesandbox.io/s/w638oyk7o8)
 * [Swagger Hub](https://app.swaggerhub.com/apis/AlvianJoseph/default-title/0.1)
 
+
+### Command to add data to server  
+```echo '{"id": number, "description":"string","display_name": "string", "string":"text"}' | http post :3000/categories```
+
 #### REST methods
 * `/categories GET, POST`  
 
